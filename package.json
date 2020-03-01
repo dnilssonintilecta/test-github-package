@@ -1,0 +1,27 @@
+{
+  "name": "@dnilssonintilecta/test-github-package",
+  "version": "1.0.1",
+  "description": "test-github-package",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dnilssonintilecta/test-github-package.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/dnilssonintilecta"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnilssonintilecta/test-github-package/issues"
+  },
+  "homepage": "https://github.com/dnilssonintilecta/test-github-package#readme",
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  }
+}
